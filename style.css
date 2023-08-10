@@ -1,0 +1,99 @@
+.floor{
+    border: solid 10px rgb(131, 163, 34);
+    /* height: 33.3%; */
+    /* border-color: aqua; */
+    display:flex;
+    flex-direction: column;
+    padding: 60px;
+    text-align: right;
+    background-color: rgb(30, 135, 177);
+}
+
+.button{
+    width: 50px;
+    text-align: left;
+    background-color: aquamarine;
+    border-radius: 4px;
+}
+.button:hover{
+  background-color: beige;
+
+}
+
+.lift{
+    display: flex;
+    position: relative;
+    bottom: 2%;
+    left: 50%;
+    border: solid 4px grey;
+    height:100px;
+    width: 70px;
+    background-color: rgb(95, 54, 54);
+    /* align-items: right; */
+    animation-name: lift;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes lift {
+    0%{
+        width: 0px;
+    }    
+    100% {
+        width: 70px;
+    }
+}
+
+.classname {
+    position: absolute;
+    animation-name: cssAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes cssAnimation {
+    0% {
+      bottom: 25%;
+    }
+    100% {
+      bottom: 80%;
+    }
+  }
+
+.classname1 {
+    position: absolute;
+    animation-name: cssAnimation1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes cssAnimation1 {
+    0% {
+      bottom: 25%;
+    }
+    100% {
+      bottom: 55%;
+    }
+}
+
+.classname2 {
+  position: absolute;
+  animation-name: cssAnimation2;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation2 {
+  0% {
+    bottom: 25%;
+  }
+  100% {
+    bottom: 25%;
+  }
+}
