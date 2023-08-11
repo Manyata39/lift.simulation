@@ -7,6 +7,6 @@
 ## Concepts Applied :
 1. CSS
 2. JavaScript
-### Used CSS animation to move and element form one position to another.
+### Used CSS animation to move and element from one position to another.
 ### Used an Javascript function to set the attribute of an CSS object upon a button click.
 ## Link: https://zesty-gingersnap-68f45b.netlify.app
